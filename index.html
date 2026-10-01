@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rushda &amp; Akhtar | Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Amiri&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-locked">
+
+<!-- COVER: beam, seal, name plate, scalloped base -->
+<div id="cover" class="cover">
+  <p class="cover__top">A Wedding Invitation For You</p>
+  <div class="beam"></div>
+  <div class="flash"></div>
+  <button class="seal" id="seal" aria-label="Open invitation"><span class="seal__mono">R&amp;A</span></button>
+  <p class="cover__tap">Tap to open</p>
+  <div class="plate"><small>Together with their families</small><b>Rushda <i>&amp;</i> Akhtar</b></div>
+  <div class="base"><div class="scallop"></div><div class="lattice"></div></div>
+</div>
+
+<main>
+  <section class="section ivory">
+    <div class="container reveal">
+      <p class="eyebrow">We joyfully invite you to celebrate the marriage of</p>
+      <h1 class="names">Rushda<i>&amp;</i>Akhtar</h1>
+      <div class="rule"></div>
+      <p class="small">Rushda Iftikhar, daughter of Mr. Iftikhar Ahmad<br>Akhtar Muneer, S/O Ismail Khan</p>
+      <p class="ar verse">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+      <p class="trans">And among His signs is that He created for you spouses among yourselves, that you may find tranquility in them, and He placed between you affection and mercy.</p>
+      <p class="eyebrow">Surah Ar-Rum · 30:21</p>
+    </div>
+  </section>
+
+  <section class="section ivory">
+    <div class="container reveal">
+      <p class="eyebrow">A little surprise</p>
+      <h2 class="title">Scratch &amp; Reveal the Date</h2>
+      <div class="rule"></div>
+      <div class="scratch" id="scratch">
+        <div class="scratch__date"><small>Save the date</small>13 – 15 November 2026</div>
+        <canvas id="foil"></canvas>
+      </div>
+      <p class="trans small">Rub the foil with your finger to reveal</p>
+    </div>
+  </section>
+
+  <section class="section ivory">
+    <div class="container reveal">
+      <p class="eyebrow">Our invitation</p>
+      <h2 class="title">Dear Family &amp; Friends</h2>
+      <div class="rule"></div>
+      <p>By the grace of Allah, we joyfully invite you to our Mehndi, Barat and Walima celebrations. Your presence, prayers, and blessings would mean the world to us as we begin this new journey together.</p>
+      <p class="script">With love, Rushda &amp; Akhtar</p>
+      <p class="eyebrow">Rushda · Akhtar</p>
+    </div>
+  </section>
+
+  <section class="section forest">
+    <div class="container reveal">
+      <p class="eyebrow">Celebrating together</p>
+      <h2 class="title">Wedding Events</h2>
+      <div class="rule"></div>
+      <div class="grid">
+        <article class="ecard"><span class="ring">❁</span><p class="ur ar">مہندی</p><h3>Mehndi</h3><p class="eyebrow">Mehndi ceremony</p><p>13 November 2026<br><b>06 – 10 pm</b></p><p class="trans">Baghicha Wedding Hall,<br>Charsadda</p></article>
+        <article class="ecard"><span class="ring">☾</span><p class="ur ar">بارات</p><h3>Barat</h3><p class="eyebrow">Barat ceremony</p><p>14 November 2026<br><b>06 – 10 pm</b></p><p class="trans">Ronaaq Wedding Hall,<br>Peshawar</p></article>
+        <article class="ecard"><span class="ring">✦</span><p class="ur ar">ولیمہ</p><h3>Walima</h3><p class="eyebrow">Walima ceremony</p><p>15 November 2026<br><b>06 – 10 pm</b></p><p class="trans">Gulmakai Palace Wedding Hall,<br>Peshawar</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section ivory">
+    <div class="container reveal">
+      <p class="eyebrow">Save the date</p>
+      <h2 class="title">Counting Down</h2>
+      <div class="panel">
+        <div class="cd" id="cd">
+          <div><b data-u="d">00</b><span>Days</span></div><div><b data-u="h">00</b><span>Hours</span></div>
+          <div><b data-u="m">00</b><span>Minutes</span></div><div><b data-u="s">00</b><span>Seconds</span></div>
+        </div>
+        <p class="trans">Until our Barat on Saturday, November 14, 2026 at 06:00 PM</p>
+        <p class="ar insha">إن شاء الله</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENUES: one block + map per event -->
+  <section class="section forest">
+    <div class="container reveal">
+      <p class="eyebrow">Where to find us</p>
+      <h2 class="title">The Venues</h2>
+      <div class="rule"></div>
+
+      <article class="venue-card">
+        <img class="venue-card__img" src="mehndi-venue.jpg" alt="Mehndi stage decor">
+        <div class="venue-card__veil"></div>
+        <div class="venue-card__text">
+          <p class="venue-card__tag">Mehndi · Friday, 13 Nov 2026 · 06 – 10 pm</p>
+          <h3 class="venue-card__name">Baghicha Wedding Hall</h3>
+          <p class="venue-card__addr">Ghani Khan Road, Charsadda</p>
+          <a class="venue-card__btn" href="https://maps.app.goo.gl/4MUh5akob1EEbkik9?g_st=ac" target="_blank" rel="noopener">View on Map</a>
+        </div>
+      </article>
+
+      <article class="venue-card">
+        <img class="venue-card__img" src="barat-venue.jpg" alt="Barat stage decor">
+        <div class="venue-card__veil"></div>
+        <div class="venue-card__text">
+          <p class="venue-card__tag">Barat · Saturday, 14 Nov 2026 · 06 – 10 pm</p>
+          <h3 class="venue-card__name">Ronaaq Wedding Hall</h3>
+          <p class="venue-card__addr">Near Imtiaz Megamart, Ring Road, Peshawar</p>
+          <a class="venue-card__btn" href="https://maps.app.goo.gl/ZvjRV94uHnecY44X6?g_st=ac" target="_blank" rel="noopener">View on Map</a>
+        </div>
+      </article>
+
+      <article class="venue-card">
+        <img class="venue-card__img" src="walima-venue.jpg" alt="Walima stage decor">
+        <div class="venue-card__veil"></div>
+        <div class="venue-card__text">
+          <p class="venue-card__tag">Walima · Sunday, 15 Nov 2026 · 06 – 10 pm</p>
+          <h3 class="venue-card__name">Gulmakai Palace Wedding Hall</h3>
+          <p class="venue-card__addr">Near Northern Bypass Chowk, Peshawar</p>
+          <a class="venue-card__btn" href="https://maps.app.goo.gl/ZvjRV94uHnecY44X6?g_st=ac" target="_blank" rel="noopener">View on Map</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section ivory">
+    <div class="container reveal">
+      <p class="eyebrow">With love</p>
+      <h2 class="title">Your Blessings</h2>
+      <div class="rule"></div>
+      <p>Your presence and your duas are the greatest gift we could ask for.</p>
+    </div>
+  </section>
+
+  <section class="section forest">
+    <div class="container reveal">
+      <p class="eyebrow">Get in touch</p>
+      <h2 class="title">Hosts &amp; Contact</h2>
+      <div class="rule"></div>
+      <a class="tel" href="tel:03275574840"><span class="eyebrow">M. Saad Khan</span>0327-5574840</a>
+      <a class="tel" href="tel:03369493165"><span class="eyebrow">Hashir Khan</span>0336-9493165</a>
+      <p class="script">Rushda &amp; Akhtar</p>
+      <p class="trans">Thank you for being a part of our story.</p>
+      <p class="ar insha">آمین</p>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
